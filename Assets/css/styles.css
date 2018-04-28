@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Rubik" , sans-serif;
+}
+.box1{
+    fill: red;
+}
+body{
+    background: #FCFDFB;
+}
+
+#svg{
+    width: 100%;
+}
+.btn{
+    width: 100px;
+}
+
+#body-text{
+    width: 36%;
+    margin: 50px 32%;
+    text-align: center;
+}
+#start-text{
+    font-weight: 800;
+}
+ #wrapper{
+    width: 100%;
+    padding: 30px 20%;
+}
+#board, #controls{
+    float: left;
+    background:;
+}
+#buttons{
+    float: right;
+}
+#controls , #buttons{
+    width: 20%;
+}
+.control-content{
+
+}
+.start, #stats{
+    width:60%;
+    margin: 0 20%;
+    text-align: right;
+}
+#board{
+    width: 60%;
+    min-width: 400px;
+}
+
+.crystal-btn{
+    color: white;
+    margin: 5px;
+    visibility: hidden;
+    width: 50px;
+}
+
+
+.visible{
+    visibility: visible;
+}
+#box1{
+    background: rgb(75,117,158)
+}
+#box2{
+    background: rgb(114,193,86)
+}
+#box3{
+    background: rgb(223,79,55)
+}
+#box4{
+    background: rgb(247,181,56)
+}
+
+#start-btn{
+    margin-bottom: 25px;
+}
+
+canvas{
+    margin: 0 auto;
+}
+.canvas-div{
+    width:400px;
+    margin: 0 auto;
+}
+
+#status-text{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.win-text, #wins{
+    color: rgb(114,193,86);
+}
+.lose-text, #losses{
+    color:rgb(223,79,55);
+}
+
+.stat{
+    font-size: 24px;
+    font-weight: 400;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Game 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="Assets/js/TimelineMax.min.js"></script>
+    <script src="Assets/js/TweenMax.min.js"></script>
+    <script src="Assets/js/EasePack.min.js"></script>
+    
+    
+  </head>
+
+  
+  <body>
+    <div id="body-text"><p class="body-text">
+      Try to make up the grey box with colored blocks. Click on each block to put in place. If you go over the grey box you will lose! <br>
+      <br><span id="start-text">Press start to play!</span>
+    </p></div>
+    <div id="wrapper">
+      
+      <div id="controls">
+        <div class="control-content">
+          <div class="start">
+              <button class="btn start-btn btn-outline-dark" id="start-btn">Start</button>
+          </div>
+          <!-- <div class="reset">
+              <button class="btn reset-btn" id="reset-btn">Reset</button>
+          </div> -->
+          <div id="stats">
+              <p>Score: <span class="stat" id="wins"></span></p>
+              <p>Losses: <span class="stat" id="losses"></span></p>
+          </div>
+        </div>
+      </div>
+      <div id="buttons">
+          <p id="btn-title">Building blocks:</p>
+          <div class="btn1"><button class="btn crystal-btn" id="box1">  </button></div>
+          <div class="btn2"><button class="btn crystal-btn" id="box2"> </button></div>
+          <div class="btn3"><button class="btn crystal-btn" id="box3"></button></div>
+          <div class="btn4"><button class="btn crystal-btn" id="box4"></button></div>
+        </div>
+      <div id="board">
+        <div id="status">
+          <p id="status-text"></p>
+        </div>
+        <div class="canvas-div">
+          <canvas id="myCanvas" width="400" height="800">
+          </canvas>
+        </div> 
+      </div>
+
+      
+      
+
+    </div>
+
+
+      <script src="Assets/js/game.js"></script>
+  </body>
+
+  
+  
+
+
+  
+  
+
+</html>
